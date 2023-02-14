@@ -7,6 +7,8 @@ body{
   background-color: rgba(211, 211, 211, 0.24);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 /*HEADER*/
 header div{
   background-color: white;
@@ -22,15 +24,11 @@ header div img{
 
 
 /*MAIN*/
-main{
-  text-align: justify;
-  padding-left: 40px;
-}
-
-
 main nav ul li{
   display: inline-block;
 }
+
+
 nav{
   border-bottom: 2px;
   border-bottom: solid;
@@ -40,17 +38,24 @@ nav{
 
 ul {
   padding-bottom: 10px;
+  text-align: justify;
+  padding-left: 40px;
 }
+
 
 h2{
   padding-top: 30px;
   padding-bottom: 5px;
+  text-align: justify;
+  padding-left: 40px;
 }
+
 
 li{
   list-style: none;
   padding-bottom: 15px;
 }
+
 
 .container{
   width: 90%;
@@ -60,8 +65,10 @@ li{
   margin:0 auto;
   padding-top: 0;
 }
+/*MAIN*/
 
 
+/* classi colori cerchi */
 .cerchio-azzurro{
   background-color: rgb(28, 171, 228);
   border-radius: 10px;
@@ -69,6 +76,7 @@ li{
   font-size: 12px;
   color: white;
 }
+
 
 .cerchio-trasparente{
   background-color: rgba(227, 231, 233, 0.185);
@@ -80,6 +88,7 @@ li{
   font-size: 12px;
   color: rgba(128, 128, 128, 0.308);
 }
+
 
 .cerchio-viola{
   background-color: rgb(189, 93, 226);
@@ -116,6 +125,7 @@ li{
   color: white;
 }
 
+
 .cerchio-arancio{
   background-color: rgb(228, 146, 24);
   border-radius: 10px;
@@ -124,13 +134,22 @@ li{
   color: white;
 }
 
+
 .checkmark{
   color: greenyellow;
   background-color: white;
   border: solid;
-  border-radius: 5px;
+  border-radius: 15px;
   border-color: greenyellow;
 }
-/*MAIN*/
+
+.cross{
+  color: red;
+  background-color: white;
+  border: solid;
+  border-radius: 15px;
+  border-color: red;
+}
+/* classi colori cerchi */
 
 
