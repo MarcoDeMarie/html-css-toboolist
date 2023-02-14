@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(211, 211, 211, 0.24);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+header div{
+  background-color: white;
+  font-size:40px;
+  text-align: left;
+}
+
+header div img{
+  vertical-align: middle;
+}
+/*HEADER*/
+
+
+
+/*MAIN*/
+main{
+  text-align: justify;
+  padding-left: 40px;
+}
+
+
+main nav ul li{
+  display: inline-block;
+}
+
+
+ul {
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-color: rgba(128, 128, 128, 0.151);
+  border-width: 3px;
+}
+
+.container{
+  width: 90%;
+  max-width: 1080px;
+  background-color:white;
+  border-radius: 5px;
+  margin:0 auto;
+  padding-top: 0;
+}
+
+.cerchio-azzuro{
+  background-color: rgb(51, 187, 241);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+}
+
+.cerchio-azzurro{
+  background-color: rgb(28, 171, 228);
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 10px;
+  color: white;
+}
+
+.cerchio-trasparente{
+  background-color: rgba(227, 231, 233, 0.185);
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.205);
+  padding: 5px;
+  font-size: 13px;
+  color: rgba(128, 128, 128, 0.308);
+}
+
+.cerchio-viola{
+  background-color: rgb(189, 93, 226);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+}
+
+
+.cerchio-verde{
+  background-color: rgb(90, 238, 169);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+}
+
+
+.cerchio-senape{
+  background-color: rgb(217, 233, 79);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+}
+
+
+.cerchio-rosa{
+  background-color: rgb(221, 131, 187);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 5px;
+  color: white;
+}
+
+.checkmark{
+  color: greenyellow;
+  background-color: white;
+  border: solid;
+  border-radius: 5px;
+  border-color: greenyellow;
+}
+/*MAIN*/
+
+
